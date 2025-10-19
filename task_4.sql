@@ -1,3 +1,5 @@
-USE alx_book_store;
+SELECT *
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'Books'
+  AND table_schema = 'alx_book_store';
 
-SHOW CREATE TABLE Books;
