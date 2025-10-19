@@ -8,7 +8,7 @@ try:
     database="alx_book_store"
   )
 
-except:
+except mysql.connector.Error as error:
   print('Failed to connect to the DB')
 
 else:
